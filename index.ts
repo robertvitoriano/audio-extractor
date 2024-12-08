@@ -33,8 +33,7 @@ function extractAudio(videoPath, outputDir = ".") {
 
 ;(async () => {
   const videoPath = "/home/robert/2024-12-08 17-46-29.mkv"
-  const outputDir =
-    "/media/robert/storage/Central/projetos/games/C++/sdl/cavestory/implementations/my-cavestory/content/sounds/background.mp3"
+  const outputDir = "./background.mp3"
 
   try {
     const audioPath = await extractAudio(videoPath, outputDir)
